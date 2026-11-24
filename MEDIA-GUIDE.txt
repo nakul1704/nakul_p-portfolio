@@ -1,0 +1,47 @@
+PORTFOLIO MEDIA
+
+Open "nakul portfolio.html" to view the portfolio.
+Each card shows one media item at a time. Use the arrows, swipe horizontally
+on touch screens, or focus the gallery and use the keyboard arrow keys.
+Arrows and the counter are hidden when a card has only one item. Navigation wraps around.
+Videos pause when you leave their slide; playback never starts automatically.
+
+Game folders under assets/media/:
+  lost-trance/
+  bin-it-to-win-it/
+  rhythm-riot/
+  heist-protocol/
+  Love-Story/
+The original four game folders contain images/ for future pictures.
+Love Story images are stored directly in Love-Story/.
+
+ADDING AN IMAGE
+1. Put the image in the relevant game's images/ folder.
+2. In the HTML, locate that game's media-track and add a slide inside it:
+
+   <div class="media-slide" role="group" aria-roledescription="slide">
+       <img class="project-media"
+            src="assets/media/bin-it-to-win-it/images/example.jpg"
+            alt="Describe the screenshot" loading="lazy">
+   </div>
+
+3. Update the path and description. Save and refresh the page.
+The arrows and counter automatically include all slides in the track.
+Adding a file to the folder alone does not add a slide to the page.
+
+For an additional video, use the same slide wrapper with a <video> element,
+following the existing examples. Use MP4 (H.264/AAC) for browser compatibility.
+
+Lost Trance.mp4 and Lost Trance.mkv contain the compressed 1600 x 1000,
+30 fps version of the full video. The website uses the MP4.
+All videos in this archive are below 100,000,000 bytes each.
+
+PROJECT DOCUMENTS AND LINKS
+Lost Trance: Animation Sprites opens assets/documents/Lost-Trance-Animation-Sprite-Collection.pdf.
+Bin It to Win It: assets/documents/Bin_GDD.pdf
+Heist Protocol and Rhythm Riot: assets/documents/heist-protocol-design-doc.pdf
+Love Story: Miro Board opens https://miro.com/app/board/uXjVHADRkp0=/?share_link_id=251307913759
+All these buttons open in a new browser tab without forced downloading.
+The top Resume link and View Resume button both open the existing resume PDF.
+Contact in the top navigation scrolls to the bottom contact section.
+The phone and email links use the contact details from the supplied resume.
