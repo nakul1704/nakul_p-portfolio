@@ -21,7 +21,7 @@ ADDING AN IMAGE
 
    <div class="media-slide" role="group" aria-roledescription="slide">
        <img class="project-media"
-            src="assets/media/bin-it-to-win-it/images/example.jpg"
+            src="assets/media/bin-it-to-win-it/images/example.webp"
             alt="Describe the screenshot" loading="lazy">
    </div>
 
@@ -45,3 +45,7 @@ All these buttons open in a new browser tab without forced downloading.
 The top Resume link and View Resume button both open the existing resume PDF.
 Contact in the top navigation scrolls to the bottom contact section.
 The phone and email links use the contact details from the supplied resume.
+
+IMAGE FORMAT
+All portfolio images use lossless WebP files.
+Use the exact filename and letter case in each image path when hosting.
