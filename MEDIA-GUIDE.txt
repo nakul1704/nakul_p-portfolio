@@ -1,6 +1,6 @@
 PORTFOLIO MEDIA
 
-Open "nakul portfolio.html" to view the portfolio.
+Open "index.html" to view the portfolio.
 Each card shows one media item at a time. Use the arrows, swipe horizontally
 on touch screens, or focus the gallery and use the keyboard arrow keys.
 Arrows and the counter are hidden when a card has only one item. Navigation wraps around.
@@ -49,3 +49,9 @@ The phone and email links use the contact details from the supplied resume.
 IMAGE FORMAT
 All portfolio images use lossless WebP files.
 Use the exact filename and letter case in each image path when hosting.
+
+GITHUB PAGES
+Publish the contents of the Nakul folder, including index.html, assets/ and
+the empty .nojekyll file, to the root of your configured publishing source.
+Love Story images have descriptive names without leading underscores.
+The resume includes a blue, clickable Portfolio link to the hosted site.
